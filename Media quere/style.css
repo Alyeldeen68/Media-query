@@ -1,0 +1,32 @@
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.box {
+  width: 300px;
+  height: 300px;
+}
+
+.box1 {
+  background-color: aquamarine;
+}
+
+.box2 {
+  background-color: beige;
+}
+
+.box3 {
+  background-color: white;
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .parent {
+    flex-direction: column;
+  }
+  .box1 {
+    background-color: red;
+  }
+}
